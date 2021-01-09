@@ -14,7 +14,7 @@ class HttpClient:
             urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     def Get(self,url,headers=None,data=None,json=None,params=None,*args,**kwargs):
-        '''Get请求'''
+        '''Get请求1'''
 
         if headers is None:
             headers={}
